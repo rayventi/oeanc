@@ -96,4 +96,5 @@ function insideFun(year, month, day) {
     };
     blockStr += '</div><div class="text"><p>' + data[year].data[month].data[day].data.text + '</p></div></div></div>';
     $('#main').html(blockStr);
+    document.title=data[year].year+'年'+data[year].data[month].month+'月'+data[year].data[month].data[day].day+'日';
 }
