@@ -3,6 +3,12 @@ var data = [{
     data: [{
         month: 11,
         data: [{
+            day: 12,
+            data: {
+                img: 3,
+                text: '小可爱<a href="/inner/birthday2017" target="_blank">生日快乐</a>！祝你永远活泼可爱，年轻漂亮！=3='
+            }
+        },{
             day: 04,
             data: {
                 img: 2,

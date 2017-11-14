@@ -356,7 +356,7 @@ body {
     padding: 40px 0 20px 120px;
 }
 
-#wrap #main .block .content a {
+#wrap #main .block .content>a {
     display: block;
     width: 480px;
     height: auto;
@@ -365,7 +365,7 @@ body {
     text-decoration: none;
 }
 
-#wrap #main .block .content a img {
+#wrap #main .block .content>a img {
     display: block;
     width: 480px;
     filter: blur(1px);
@@ -380,11 +380,11 @@ body {
     margin: 0 auto 40px;
 }
 
-#wrap #main .block .content a:hover img {
+#wrap #main .block .content>a:hover img {
     filter: blur(0px);
 }
 
-#wrap #main .block .content a span {
+#wrap #main .block .content>a span {
     display: block;
     width: 25px;
     height: 25px;
@@ -400,7 +400,7 @@ body {
     transition-duration: 1s;
 }
 
-#wrap #main .block .content a:hover span {
+#wrap #main .block .content>a:hover span {
     border: 1px solid rgba(200, 200, 200, 0.5);
 }
 
