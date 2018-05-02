@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>今日Oeanc！</title>
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="リアルタイムのオセクターの取引価格を取得し、あなたのオセリングの取引価格を共有します。" />
+    <meta name="description" content="リアルタイムのオセクターの取引価格を取得し、あなたのオセリングの取引価格を共有します。" />
+    <meta name="og:title" content="今日大洋链" />
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/index.css">
+    <link href="favicon.ico" type="image/x-icon" rel="icon"/>
+</head>
+
+<body style="display:none;">
+    <div id="shareImage" style="display: none;">
+        <img src="images/share.png" />
+    </div>
+    <div id="preloader">
+        <div id="status"></div>
+    </div>
+    <!-- <img src="images/zd_bg.png" id="gavinPlay"> -->
+    <div id="content">
+        <h1>今日Oeanc</h1>
+        <h2>支払いのための色調</h2>
+        <div class="download">
+            <a class="windows">Windows版
+                <div class="win">
+                    <span class="win64">64ビットのダウンロード</span>
+                    <span class="win32">32ビットのダウンロード</span>
+                </div>
+            </a>
+            <a class="mac">MAC版</a>
+        </div>
+        <h3>価格</h3>
+        <h3>1 <small>OEC</small>=<span id="price"></span> <small id="money"></small><span id="range">+3%</span></h3>
+        <div class="relief">取引価格ごとに2時間の更新は、二時間以内の取引を加重平均計算すると、取引データは大洋チェーンユーザーがアップロードされ、参考用取引。<br>現在の取引データは機械によってアップロードするだけで、公開アップロードは数日後にオープンします。</div>
+    </div>
+    <div class="bottom">
+        <a href="javascript:;" id="locale">日本語</a>
+        <ul>
+            <li>
+                <a href="index.html">English</a>
+            </li>
+            <li>
+                <a href="es.html">Español</a>
+            </li>
+            <li>
+                <a href="cn.html">简体中文</a>
+            </li>
+            <li>
+                <a href="zh.html">繁體中文</a>
+            </li>
+        </ul>
+        <span class="copy">© OeancToday 2018</span>
+    </div>
+    <script src="js/jquery-2.1.4.min.js"></script>
+     <script src="js/index.min.js"></script>
+</body>
+
+</html>
